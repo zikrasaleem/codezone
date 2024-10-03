@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--UPLOAD PROJECT PAGE-->
+    <div class="up-container">
+            <h1>Upload Project</h1>
+            <div id="formContainer">
+
+            <form id="projectForm">
+                <label for="projectName">Project Name:</label>
+                <input type="text" id="projectName" required>
+                
+                <label for="projectLang">Project Language:</label>
+                <input type="text" id="projectLang" required>
+                
+                <label for="demoVdo">Demo Vedio:</label>
+                <input type="file" id="video" required>
+
+                <label for="codeLink">Source Code Link:</label>
+                <input type="text" id="codeLink" required>
+
+                <label for="projectDescription">Project Description:</label>
+                <input type="text" id="projectDescription" required>
+                
+               <br>
+                
+                <button type="submit">Submit</button>
+                <button type="button" id="closeForm">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
