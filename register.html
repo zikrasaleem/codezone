@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeZone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--REGISTER PAGE-->
+
+  <div class="register-form">
+    <h2>Register</h2>
+    <form id="register-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Username... " required><br><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="abc@gmail.com..." required><br><br>
+      
+      <label for="gender">Gender:</label>
+      <select id="user-type" name="user-type" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+        </select><br><br>
+      
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" placeholder="enter D-O-B..."required><br><br>
+
+      <label for="mobile">Mobile no.:</label>
+      <input type="text" id="mobile" name="mobile" placeholder="enter mobile no..."required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="enter password..."required minlength="6"><br><br>
+      
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" placeholder="enter password..." required minlength="6"><br><br>
+      
+      <label >Are you a:</label>
+      <select id="user-type" name="user-type" required>
+        <option value="">Select</option>
+        <option value="student">Student</option>
+        <option value="professional">Professional</option>
+        <option value="employee">Employee</option>
+        <option value="teacher">Teacher</option>
+        <option value="developer">Developer</option>
+      </select><br><br>
+      
+      <button type="submit" id="submit">Register</button>
+      <p id="message" class="message"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
